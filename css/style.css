@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+}
+h1{text-align: center;}
+
+#padre{    
+    height: 500px;
+    /* border-top: 2px double   ; 
+    border-bottom: 2px double;
+    border-right: 2px double;
+    border-left: 2px dotted;
+     */
+     border: 2px solid;     
+     display: flex;
+     /* flex-direction: column-reverse; */
+     /* flex-wrap: wrap; */
+     justify-content: space-between; 
+     align-items: flex-end;
+}
+.hijo{
+    /* background-color: brown; */
+    border: 1px solid;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+.diferente{
+    background-color: aqua;
+    text-align: center;  
+    font-size: 36px;  
+}
